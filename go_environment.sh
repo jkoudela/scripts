@@ -4,6 +4,7 @@ cd go
 mkdir bin
 mkdir src
 mkdir pkg
+cd $HOME
 
 echo "export GOPATH=\"$HOME/go\"" >> ~/.bash_profile
 echo "export GOBIN=\"$GOPATH/bin\"" >> ~/.bash_profile
