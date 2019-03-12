@@ -5,9 +5,9 @@ mkdir bin
 mkdir src
 mkdir pkg
 
-echo "export GOPATH=\"${HOME}/go\"" >> ~/.bash_profile
-echo "export GOBIN=\"${GOPATH}/bin\"" >> ~/.bash_profile
-echo "export PATH=\"${PATH}:${GOBIN}\"" >> ~/.bash_profile
+echo "export GOPATH=\"$HOME/go\"" >> ~/.bash_profile
+echo "export GOBIN=\"$GOPATH/bin\"" >> ~/.bash_profile
+echo "export PATH=\"$PATH:$GOBIN\"" >> ~/.bash_profile
 
 git config --global user.name "jkoudela"
 git config --global user.email "jan@koudela.eu"
