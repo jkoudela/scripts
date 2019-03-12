@@ -1,3 +1,10 @@
+cd $HOME
+mkdir go
+cd go
+mkdir bin
+mkdir src
+mkdir pkg
+
 export GOPATH="${HOME}/go"
 export GOBIN="${GOPATH}/bin"
 export PATH="${PATH}:${GOBIN}"
