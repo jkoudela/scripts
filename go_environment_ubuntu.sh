@@ -1,4 +1,9 @@
+#/bin/bash
 cd $HOME
+sudo apt remove golang
+sudo apt install wget
+wget https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.12.1.linux-amd64.tar.gz
 mkdir go
 cd go
 mkdir bin
