@@ -1,4 +1,6 @@
 #/bin/bash
+sudo apt update
+sudo apt upgrade
 cd $HOME
 sudo apt remove golang
 sudo apt install wget
