@@ -4,8 +4,8 @@ sudo apt upgrade
 sudo apt remove golang
 sudo apt install wget
 cd $HOME
-wget https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.12.1.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.12.7.linux-amd64.tar.gz
 mkdir go
 cd go
 mkdir bin
