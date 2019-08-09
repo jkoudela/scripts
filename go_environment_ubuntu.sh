@@ -18,7 +18,7 @@ mkdir pkg
 cd $HOME
 
 echo -e "export GOPATH=\"$HOME/go\"" >> ~/.bash_profile
-echo -e "export GOBIN=\"$GOPATH/bin\"" >> ~/.bash_profile
+echo -e "export GOBIN=\"$HOME/go/bin\"" >> ~/.bash_profile
 echo -e "export PATH=\"$PATH:$GOBIN\"" >> ~/.bash_profile
 echo -e "export PATH=$PATH:/usr/local/go/bin\"" >> ~/.bash_profile
 
