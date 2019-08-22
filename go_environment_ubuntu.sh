@@ -20,4 +20,4 @@ cd $HOME
 git config --global user.name "jkoudela"
 git config --global user.email "jan@koudela.eu"
 ssh-keygen -t rsa -b 4096 -C "jan@koudela.eu"
-cat $HOME/.ssh/id_rsa
+cat $HOME/.ssh/id_rsa.pub
