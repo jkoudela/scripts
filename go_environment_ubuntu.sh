@@ -3,8 +3,8 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install git -y
 sudo apt install wget -y
-sudo apt install python3
-sudo apt install python3-pip
+sudo apt install python3 -y
+sudo apt install python3-pip -y
 sudo snap install code --classic
 sudo snap install go --classic
 sudo snap install pycharm-professional --classic
